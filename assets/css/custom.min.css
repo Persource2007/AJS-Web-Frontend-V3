@@ -1,0 +1,137 @@
+
+/*# sourceMappingURL=custom.min.css.map */
+.flatpickr-calendar{z-index: 1099 !important;}
+/*Select2 ReadOnly Start*/
+select[readonly].select2-hidden-accessible + .select2-container {
+    pointer-events: none;
+    touch-action: none;
+}
+div.width-25{
+	width:25%!important;
+}
+select[readonly].select2-hidden-accessible + .select2-container .select2-selection {
+    background: #eee;
+    box-shadow: none;
+}
+
+select[readonly].select2-hidden-accessible + .select2-container .select2-selection__arrow, select[readonly].select2-hidden-accessible + .select2-container .select2-selection__clear {
+    display: none;
+}
+
+/*Select2 ReadOnly End*/
+
+.custom-timerange-picker .calendar-table {
+    display: none !important
+}
+
+.popup-form-view-button {
+    display: none;
+}
+
+.error-div:has(.select2-selection__clear) .popup-form-view-button {
+    display: block;
+}
+
+.error-div select:not(.select2-hidden-accessible) ~ .popup-form-search-button {
+    display: none;
+}
+
+.main-content:has(.sub-nav-tabs) .client-sub-nav .active::before {
+    background-color: var(--vz-gray-300) !important;
+}
+
+.error-table td, .error-table th {
+    border:1px solid red;
+}
+
+.ck-powered-by-balloon {
+    display: none !important;
+}
+
+.ck-custom-dropdown .ck-dropdown__panel .ck-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; /* Make each button take full width */
+    cursor: pointer;
+}
+
+.dataTable .dropdown .btn-soft-secondary {
+    display: none !important;
+}
+
+.dataTable .dropdown:has(.dropdown-menu li a) .btn-soft-secondary {
+    display: inline-block !important;
+}
+
+#van-loc-datatables_wrapper .dataTables_paginate .pagination {
+    justify-content: center !important;
+}
+
+#van-loc-datatables tbody tr td {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+/* Loader overlay */
+.dataTables_processing {
+    height: auto;
+    padding: 10px 20px !important;
+    color: #fff;
+    font-size: 16px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 8px;
+    z-index: 9999;
+}
+
+
+.swal2-validation-message{
+    align-items: flex-start!important;
+}
+.pricing-col {
+    text-align: right;
+    padding-right: 25px !important;
+}
+.ui-autocomplete {
+    z-index: 1051 !important; 
+    background-color: #ffffff !important;
+    border-radius: 0 0 4px 4px !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    max-height: 200px !important;
+    box-shadow: none !important;
+} 
+.ui-autocomplete li .ui-menu-item-wrapper:hover{
+    background-color: #5897fb !important;
+    border-color: #5897fb !important;
+}
+.progress, .progress-stacked {
+    --vz-progress-bg: #c1c1c1;
+}
+.progress-bar {
+    background-color: #009925;
+}
+.primaryColor{
+    color: var(--primary-color);
+}
+.dotIcon {
+    max-width: 15px;
+    padding: 0 0 0 8px !important;
+}
+
+.engr-marker.highlight-marker-active {
+    transform: scale(1.4);
+    filter: drop-shadow(0 0 8px rgba(236, 28, 38, 0.8));
+}
+.swal2-validation-message{
+    color: #ED000C;
+}
+.choices__inner .choices__input:focus{
+    min-width: 5ch !important;
+}
+.error-div:has(select:disabled) .popup-form-search-button {
+    display: none;
+}
+td.short-desc { 
+    max-width: 300px; white-space: normal; word-break: break-word;
+}

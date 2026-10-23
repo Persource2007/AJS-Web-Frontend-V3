@@ -1,0 +1,137 @@
+@import "bulma.css";
+
+.toastui-calendar-panel.toastui-calendar-time{height: 80vh !important;}
+.toastui-calendar-month-week-item{height:120px !important;}
+.calendar-ui .header {
+    padding: 1rem;
+    border-bottom: 1px solid #bbb;
+}
+
+.calendar-ui .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}
+
+.calendar-ui .content {
+    display: flex;
+    height: 100%;
+}
+
+.calendar-ui .sidebar {
+    display: flex;
+    flex: 0 1 12rem;
+    flex-direction: row;
+    padding: 1.25rem;
+    background-color: #fafafa;
+    border-right: 1px solid #d5d5d5;
+    justify-content: space-between;
+}
+
+.calendar-ui .sidebar hr {
+    margin: 1rem 0;
+}
+
+/*.sidebar-item + .sidebar-item {
+    margin-top: 0.75rem;
+}*/
+
+.calendar-ui .sidebar .app-footer {
+    margin-top: auto;
+    font-size: 0.75rem;
+}
+
+.calendar-ui .app-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.calendar-ui .app-column nav {
+    flex: 0 1 4rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.calendar-ui #app {
+    flex: 1 0 auto;
+}
+
+.calendar-ui .navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: start;
+}
+
+.calendar-ui .navbar .dropdown {
+    margin-right: 1rem;
+}
+
+.calendar-ui .navbar .dropdown .toastui-calendar-icon {
+    margin-left: 0.5rem;
+}
+
+.calendar-ui .button.prev, .button.next {
+    padding: 0.8rem;
+}
+
+.calendar-ui .navbar .button + .button {
+    margin-left: 0.25rem;
+}
+
+.calendar-ui .navbar .navbar--range {
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+
+.calendar-ui .navbar .nav-checkbox {
+    margin-left: auto;
+}
+
+.calendar-ui input:disabled + label {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.toastui-calendar-template-time strong {
+    color: inherit;
+}
+
+.calendar-ui .sidebar-item input[type="checkbox"]:not(.checkbox-all) {
+    visibility: hidden;
+}
+
+.calendar-ui .checkbox {
+    position: relative;
+}
+
+.calendar-ui .checkbox-calendar::before {
+    content: "";
+    position: absolute;
+    left: -1.5rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+.calendar-ui .checkbox.checkbox-1::before {
+    background-color: var(--checkbox-1);
+}
+
+.calendar-ui .checkbox.checkbox-2::before {
+    background-color: var(--checkbox-2);
+}
+
+.calendar-ui .checkbox.checkbox-3::before {
+    background-color: var(--checkbox-3);
+}
+
+.calendar-ui .checkbox.checkbox-4::before {
+    background-color: var(--checkbox-4);
+}
+
+.calendar-ui .checkbox.checkbox-5::before {
+    background-color: var(--checkbox-5);
+}

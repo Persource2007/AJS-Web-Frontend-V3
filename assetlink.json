@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.netlink.ajs",
+            "sha256_cert_fingerprints": [
+                "68:68:08:8E:57:BA:37:BD:63:66:BF:2A:1E:70:E3:A1:E7:57:84:A4:73:99:1E:74:F8:A4:5C:71:0A:2D:63:0A",
+                "2A:4F:13:6E:C5:D7:0A:5A:7B:EC:2E:F1:26:01:A3:2C:38:44:D8:6B:AB:00:A2:6C:1E:0F:9B:EB:D2:F9:A2:89"
+            ]
+        }
+    }
+]

@@ -1,0 +1,25 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "XT7QDKAWCP.com.ajs.uk",
+                    "XT7QDKAWCP.com.ajs.uk.staging"
+                ],
+                "components": [
+                    {
+                        "/": "/auth/set-password/*",
+                        "comment": "Matches any URL whose path starts with /auth/set-password"
+                    },
+                    {
+                        "/": "/auth/set-forgot-password/*",
+                        "comment": "Matches any URL whose path starts with /auth/set-forgot-password"
+                    }
+                ],
+                "defaults": {
+                    "caseSensitive": false
+                }
+            }
+        ]
+    }
+}

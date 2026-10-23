@@ -1,0 +1,25 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "SUEX8SM8NG.com.netlink.ajs",
+                    "SUEX8SM8NG.com.netlink.ajs.staging"
+                ],
+                "components": [
+                    {
+                        "/": "*",
+                        "comment": "Matches all the URL fragment components."
+                    },
+                    {
+                        "/": "/auth/set-password/*",
+                        "comment": "Matches any URL whose path starts with /auth/set-password"
+                    }
+                ],
+                "defaults": {
+                    "caseSensitive": false
+                }
+            }
+        ]
+    }
+}
