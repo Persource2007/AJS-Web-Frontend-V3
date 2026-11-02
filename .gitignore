@@ -7,9 +7,9 @@ application/logs/*
 !application/logs/index.html
 .env
 .htaccess
-application/vendor/*
-/application/vendor/*
-/vendor/*
+# application/vendor/*
+# /application/vendor/*
+# /vendor/*
 system/.htaccess
 
 !application/*/.htaccess
@@ -21,7 +21,7 @@ user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
-/vendor/
+# /vendor/
 
 # IDE Files
 #-------------------------
@@ -39,9 +39,9 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.php-tmp
 
 # Local config files (IP/URL changes for local development)
-application/config/config.php
-application/config/constants.php
-assets/js/app/commons.js
+# application/config/config.php
+# application/config/constants.php
+# assets/js/app/commons.js
 
 # Documentation
 changelog.md
